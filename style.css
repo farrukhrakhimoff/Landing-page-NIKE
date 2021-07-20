@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* header */
+header {
+    width: 100%;
+    height: 660px;
+    background-image: url("https://im0-tub-com.yandex.net/i?id=80d908e337c2a8faf8ed64a4727ab569&n=13");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+header nav {
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav .logo {
+    font-size: 20px;
+    font-weight: 700;
+    color: red;
+    text-decoration:none;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li a {
+    color: #4d4d4d;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 22px 25px 21px 28px;
+    display: block;
+    transition: 500ms;
+}
+header nav ul li a:hover {
+
+background: #515151;
+color: #f7f7f7;
+}
+header h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: red;
+    margin-top: 223px;
+    margin-bottom: 45px;
+}
+header p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #4d4d4d;
+}
+header p span {
+    font-weight: 700;
+    color: black;
+    font-size: 20px;
+    
+}
+/* Header-end */
+
+/* Section-end */
+section {
+    width: 1105px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 100px 0 130px 0;
+}
+section .left-nike {
+    width: 540px;
+}
+section .left-nike.text-nike h2 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #2c2c2c;
+    margin-bottom: 30px;
+}
+section .left-nike .short-nike{
+    border: 1px solid black;
+    border-radius: 5%;
+    box-shadow: 0 0 5px grey, 0 0 25px grey, 0 0 45px black;
+}
+section .left-nike .short-nike img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;   
+}
+
+section .left-nike .text-nike h2 span {
+    font-size: 25px;
+    color: red;
+    font-weight: 700;
+}
+section .left-nike .text-nike p{
+font-size: 16px;
+font-weight: 400;
+color: #919191;
+line-height: 24px;
+}
+/* ============== */
+section .right-nike{
+    width: 534px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+section .right-nike .box{
+    display: flex;
+}
+section .right-nike .box .box-text{
+    margin-left: 30px;
+}
+section .right-nike .box .box-text h2{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 26px;
+}
+section .right-nike .box .box-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #919191;
+    line-height: 24px;
+}
+section  .right-nike .box .box-img img{
+    border-radius: 5%; 
+}
+/* Secion-end */
+
+/* Footer-start */
+footer {
+    width: 100%;
+    padding: 52px 0 47px 0;
+    background: #f9f9f9;
+    display: flex;
+    justify-content: center;
+}
+
+footer .price {
+    width: 995px;
+    display: flex;
+    justify-content: space-between;
+} 
+footer .price .price-box h2 {
+ color: black;
+ font-weight: 700;
+ font-size: 20px;   
+ margin-bottom: 22px;
+}
+
+footer .price .price-box h2 span {
+    color: red;
+    font-weight: 700;
+    font-size: 20px; 
+}
+footer .price .price-box ul {
+    list-style: none;
+}
+
+footer .price .price-box ul li a {
+    font-size: 16px;
+    line-height: 24px;
+    color:#818181 ;
+    font-weight: 400;
+    transition: 500ms;
+}
+footer .price .price-box ul li a:hover {
+    color: red;
+}   
+/* Finish */
